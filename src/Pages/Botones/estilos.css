@@ -1,0 +1,17 @@
+.grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.grupo-elementos {
+    display: flex;
+    gap: 16px;
+}
+
+.grupo-boton {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}

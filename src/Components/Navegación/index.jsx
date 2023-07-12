@@ -3,24 +3,24 @@ import "./estilos.css";
 function Navegacion() {
     return (
         <nav className="navegacion">
-            <ul>
-                <li>
-                    <a href="">Colores</a>
+            <ul className="navegacion-lista">
+                <li className="navegacion-elemento">
+                    <a className="navegacion-enlace" href="">Colores</a>
                 </li>
-                <li>
-                    <a href="">Tipografia</a>
+                <li className="navegacion-elemento">
+                    <a className="navegacion-enlace" href="">Tipografia</a>
                 </li>
-                <li>
-                    <a href="">Espacios</a>
+                <li className="navegacion-elemento">
+                    <a className="navegacion-enlace" href="">Espacios</a>
                 </li>
-                <li>
-                    <a href="">Botones</a>
+                <li className="navegacion-elemento">
+                    <a className="navegacion-enlace" href="">Botones</a>
                 </li>
-                <li>
-                    <a href="">Campos</a>
+                <li className="navegacion-elemento">
+                    <a className="navegacion-enlace" href="">Campos</a>
                 </li>
-                <li>
-                    <a href="">Grid</a>
+                <li className="navegacion-elemento">
+                    <a className="navegacion-enlace" href="">Grid</a>
                 </li>
             </ul>
         </nav>

@@ -7,6 +7,23 @@
     background-color: #fafbfd;
 }
 
+.navegacion-lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.navegacion-elemento {
+    
+}
+
+.navegacion-enlace {
+    text-decoration: none;
+    color: #9E9E9E;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
 }
 
