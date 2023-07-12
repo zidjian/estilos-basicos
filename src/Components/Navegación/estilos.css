@@ -1,0 +1,22 @@
+.navegacion {
+    position: fixed;
+    width: 80%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #fafbfd;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1024px) {
+    .navegacion {
+        position: relative;
+        width: 30%;
+        max-width: 320px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+}
