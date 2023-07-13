@@ -24,6 +24,10 @@
     cursor: pointer;
 }
 
+.active {
+    color: #090F31;
+}
+
 @media screen and (min-width: 768px) {
 }
 

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./estilos.css";
 
 function Navegacion() {
@@ -5,22 +6,34 @@ function Navegacion() {
         <nav className="navegacion">
             <ul className="navegacion-lista">
                 <li className="navegacion-elemento">
-                    <a className="navegacion-enlace" href="">Colores</a>
+                    <NavLink className="navegacion-enlace" to="/colores">
+                        Colores
+                    </NavLink>
                 </li>
                 <li className="navegacion-elemento">
-                    <a className="navegacion-enlace" href="">Tipografia</a>
+                    <NavLink className="navegacion-enlace" to="/tipografia">
+                        Tipografia
+                    </NavLink>
                 </li>
                 <li className="navegacion-elemento">
-                    <a className="navegacion-enlace" href="">Espacios</a>
+                    <NavLink className="navegacion-enlace" to="/espacios">
+                        Espacios
+                    </NavLink>
                 </li>
                 <li className="navegacion-elemento">
-                    <a className="navegacion-enlace" href="">Botones</a>
+                    <NavLink className="navegacion-enlace" to="/">
+                        Botones
+                    </NavLink>
                 </li>
                 <li className="navegacion-elemento">
-                    <a className="navegacion-enlace" href="">Campos</a>
+                    <NavLink className="navegacion-enlace" to="/campos">
+                        Campos
+                    </NavLink>
                 </li>
                 <li className="navegacion-elemento">
-                    <a className="navegacion-enlace" href="">Grid</a>
+                    <NavLink className="navegacion-enlace" to="/grid">
+                        Grid
+                    </NavLink>
                 </li>
             </ul>
         </nav>
